@@ -10,9 +10,9 @@ class PrivacyPolicy extends Component{
         return(        
             <Container fluid className="privacy-s1 d-flex align-items-center p-header py-5">
                 <Row className="mx-auto d-flex w-100">
-                    <Col xs={10} md={8} lg={7} xl={5} className="mx-auto">
-                        <Card className="p-4 privacy-container my-4 text-white rounded shadow-lg z-index-10 box-shadow">
-                            <h1 className="h5 font-weight-bold text-uppercase text-center">
+                    <Col xs={10} md={8} lg={7} xl={5} className="mx-auto pt-5">
+                        <Card className="p-4 my-4 text-white bg-form border-dark-blue rounded shadow-lg z-index-10 text-shadow">
+                            <h1 className="h5 fw-bold text-uppercase text-center">
                                 Privacy policy
                             </h1>
                             <p className="pt-2">

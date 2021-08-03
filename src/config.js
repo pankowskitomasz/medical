@@ -11,7 +11,7 @@ import Schedule from "./views/schedule";
 
 const appCfg = {
     routes:[  
-        {navItem:true, exact:true, path:"/",name:"Home",view:<Home/>},   
+        {navItem:true, exact:true, path:"/",name:"Home",view:<Home backLink={{name:"Schedule",path:"/schedule"}}/>},   
         {navItem:true, exact:true, path:"/journals",name:"Journals",view:<Journals/>},   
         {navItem:true, exact:true, path:"/schedule",name:"Schedule",view:<Schedule/>},   
         {navItem:true, exact:true, path:"/contact",name:"Contact",view:<Contact/>}, 
