@@ -25,8 +25,23 @@ body, html {
 .minh-100vh {
   min-height: 100vh;
 }
+/* line 14, ../../sass/partials/_minh.scss */
+.minh-footer-adj {
+  min-height: calc( 100vh - 41px );
+  min-height: -o-calc( 100vh - 41px );
+  min-height: -moz-calc( 100vh - 41px );
+  min-height: -webkit-calc( 100vh - 41px );
+}
 
 /* line 2, ../../sass/partials/_modules.scss */
+.bg-blue {
+  background-color: #17a8c5 !important;
+}
+/* line 5, ../../sass/partials/_modules.scss */
+.bg-dark-blue {
+  background-color: #128197 !important;
+}
+/* line 8, ../../sass/partials/_modules.scss */
 .bg-footer {
   background-attachment: scroll;
   background-image: url(../img/footer.jpg);
@@ -34,8 +49,49 @@ body, html {
   background-repeat: no-repeat;
   background-size: cover;
 }
+/* line 11, ../../sass/partials/_modules.scss */
+.bg-form {
+  background-attachment: scroll;
+  background-image: url(../img/form.jpg);
+  background-position: center right;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/* line 14, ../../sass/partials/_modules.scss */
+.bg-home {
+  background-attachment: scroll;
+  background-image: url(../img/home.jpg);
+  background-position: center right;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/* line 17, ../../sass/partials/_modules.scss */
+.bg-journals {
+  background-attachment: scroll;
+  background-image: url(../img/journals.jpg);
+  background-position: center right;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/* line 20, ../../sass/partials/_modules.scss */
+.bg-schedules {
+  background-attachment: scroll;
+  background-image: url(../img/schedules.jpg);
+  background-position: center right;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
-/* line 7, ../../sass/partials/_modules.scss */
+/* line 25, ../../sass/partials/_modules.scss */
+.border-blue {
+  border-color: #17a8c5 !important;
+}
+/* line 28, ../../sass/partials/_modules.scss */
+.border-dark-blue {
+  border-color: #128197 !important;
+}
+
+/* line 33, ../../sass/partials/_modules.scss */
 .contact-bg {
   background-attachment: fixed;
   background-image: url(../img/contact.jpg);
@@ -44,7 +100,12 @@ body, html {
   background-size: cover;
 }
 
-/* line 12, ../../sass/partials/_modules.scss */
+/* line 39, ../../sass/partials/_modules.scss */
+.hover-opacity:hover {
+  opacity: 0.6;
+}
+
+/* line 45, ../../sass/partials/_modules.scss */
 .login-form, .register-form {
   background-attachment: fixed;
   background-image: url(../img/coming.jpg);
@@ -53,16 +114,31 @@ body, html {
   background-size: cover;
 }
 
-/* line 22, ../../sass/partials/_modules.scss */
+/* line 55, ../../sass/partials/_modules.scss */
 .opacity-8 {
   opacity: 0.8;
 }
 
-/* line 27, ../../sass/partials/_modules.scss */
+/* line 60, ../../sass/partials/_modules.scss */
+.text-blue {
+  color: #17a8c5 !important;
+}
+/* line 63, ../../sass/partials/_modules.scss */
+.text-dark-blue {
+  color: #0c5a6a !important;
+}
+
+/* line 68, ../../sass/partials/_modules.scss */
 textarea {
   resize: none;
 }
 
+@media all and (min-height: 1024px) {
+  /* line 74, ../../sass/partials/_modules.scss */
+  .bg-home {
+    background-position: center;
+  }
+}
 /* line 31, ../../sass/partials/_mixins.scss */
 .error-s1 {
   background-attachment: fixed;
@@ -108,26 +184,20 @@ textarea {
   opacity: 0.8;
 }
 
-/* line 26, ../../sass/partials/_modules_init.scss */
-.privacy-container {
-  background-color: #333 !important;
-  opacity: 0.8;
-}
-
-/* line 35, ../../sass/partials/_modules_init.scss */
+/* line 31, ../../sass/partials/_modules_init.scss */
 .text-shadow {
   text-shadow: 1px 1px 4px #000;
 }
 
-/* line 41, ../../sass/partials/_modules_init.scss */
+/* line 37, ../../sass/partials/_modules_init.scss */
 .z-index-0 {
   z-index: 0;
 }
-/* line 44, ../../sass/partials/_modules_init.scss */
+/* line 40, ../../sass/partials/_modules_init.scss */
 .z-index-10 {
   z-index: 10;
 }
-/* line 47, ../../sass/partials/_modules_init.scss */
+/* line 43, ../../sass/partials/_modules_init.scss */
 .z-index-100 {
   z-index: 100;
 }

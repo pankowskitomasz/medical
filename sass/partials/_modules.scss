@@ -1,11 +1,44 @@
 .bg{
+    &-blue{
+        background-color: $color__blue!important;
+    }
+    &-dark-blue{
+        background-color: $color__dark-blue!important;
+    }
     &-footer{
         @include set-background($bg__footer-img,0,"center right","cover","scroll");
+    }
+    &-form{
+        @include set-background($bg__form-img,0,"center right","cover","scroll");
+    }
+    &-home{
+        @include set-background($bg__home-img,0,"center right","cover","scroll");
+    }
+    &-journals{
+        @include set-background($bg__journals-img,0,"center right","cover","scroll");
+    }
+    &-schedules{
+        @include set-background($bg__schedules-img,0,"center right","cover","scroll");
+    }
+}
+.border{
+    &-blue{
+        border-color: $color__blue!important;
+    }
+    &-dark-blue{
+        border-color: $color__dark-blue!important;
     }
 }
 .contact{
     &-bg{
         @include set-background($bg__contact-img,0,"top left","cover","fixed");
+    }
+}
+.hover{
+    &-opacity{
+        &:hover{
+            opacity:0.6;
+        }
     }
 }
 .login{
@@ -23,7 +56,23 @@
         opacity: 0.8;
     }
 }
+.text{
+    &-blue{
+        color:$color__blue!important;
+    }
+    &-dark-blue{
+        color: darken($color__dark-blue,10%)!important;
+    }
+}
 
 textarea{
     resize: none;
+}
+
+@media all and (min-height: 1024px){
+    .bg{
+        &-home{
+            background-position: center;
+        }
+    }
 }

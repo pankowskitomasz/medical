@@ -23,10 +23,6 @@
     }
 }
 .privacy{
-    &-container{
-        background-color: $color__container-bg !important;
-        opacity: 0.8;
-    }
     &-s1{
         @extend %bg-tmp;
     }

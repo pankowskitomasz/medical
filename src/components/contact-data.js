@@ -20,12 +20,12 @@ class ContactData extends Component{
                 <Row className="mx-auto text-center w-100 pt-5">
                     <Col xs={10} md={6} className="mx-auto text-dark p-0 d-flex">
                         <img alt="about"
-                            className="img-fluid img-thumbnail w-75 align-self-center mx-auto shadow-lg"
+                            className="img-fluid img-thumbnail w-75 align-self-center mx-auto shadow-lg border-dark-blue"
                             src="img/contact/contact-data.jpg"/>
                     </Col>
                     <Col xs={10} md={6} className="mx-auto text-white p-0 d-flex align-items-center">
                         <div className="p-5 contact-bg text-shadow">
-                            <h1 className="display-4 font-weight-bold font-logo">
+                            <h1 className="display-4 fw-bold font-logo">
                                 Contact us
                             </h1>
                             <p className="initialism">
