@@ -41,6 +41,24 @@
         }
     }
 }
+.journals{
+    &-s1{
+        @include set-background(nth($bg__jn,1),0,"top left","cover","scroll");
+    }
+    &-s2{
+        @include set-background(nth($bg__jn,2),0,"top left","cover","scroll");
+        background-color: #999;
+        background-blend-mode: multiply!important;
+    }
+    &-s3{
+        @include set-background(nth($bg__jn,3),0,"top left","cover","scroll");
+    }
+    &-s4{
+        @include set-background(nth($bg__jn,4),0,"top left","cover","scroll");
+        background-color: #999;
+        background-blend-mode: multiply!important;
+    }
+}
 .login{
     &-form{
         @include set-background($bg__login-img,0,"top left","cover","fixed");
@@ -56,6 +74,17 @@
         opacity: 0.8;
     }
 }
+.schedule{
+    &-s1{
+        @include set-background(nth($bg__jn,1),0,"top left","cover","scroll");
+    }
+    &-s2{
+        @include set-background(nth($bg__jn,3),0,"top left","cover","scroll");
+    }
+    &-s3{
+        @include set-background(nth($bg__jn,1),0,"top left","cover","scroll");
+    }
+}
 .text{
     &-blue{
         color:$color__blue!important;
@@ -67,6 +96,22 @@
 
 textarea{
     resize: none;
+}
+
+@media all and (max-width: 767px){
+    .journals{
+        &-s1,&-s3{
+            background-color: #999!important;
+            background-blend-mode: multiply!important;
+        }
+    }
+    .schedule{
+        &-s1,&-s2,&-s3{
+            @include set-background(nth($bg__jn,1),0,"top left","cover","scroll");
+            background-color: #999!important;
+            background-blend-mode: multiply!important;
+        }
+    }
 }
 
 @media all and (min-height: 1024px){

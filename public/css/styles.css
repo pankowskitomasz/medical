@@ -106,6 +106,43 @@ body, html {
 }
 
 /* line 45, ../../sass/partials/_modules.scss */
+.journals-s1 {
+  background-attachment: scroll;
+  background-image: url(../img/journals/journals-s1.jpg);
+  background-position: top left;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/* line 48, ../../sass/partials/_modules.scss */
+.journals-s2 {
+  background-attachment: scroll;
+  background-image: url(../img/journals/journals-s2.jpg);
+  background-position: top left;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #999;
+  background-blend-mode: multiply !important;
+}
+/* line 53, ../../sass/partials/_modules.scss */
+.journals-s3 {
+  background-attachment: scroll;
+  background-image: url(../img/journals/journals-s3.jpg);
+  background-position: top left;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/* line 56, ../../sass/partials/_modules.scss */
+.journals-s4 {
+  background-attachment: scroll;
+  background-image: url(../img/journals/journals-s4.jpg);
+  background-position: top left;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #999;
+  background-blend-mode: multiply !important;
+}
+
+/* line 63, ../../sass/partials/_modules.scss */
 .login-form, .register-form {
   background-attachment: fixed;
   background-image: url(../img/coming.jpg);
@@ -114,27 +151,70 @@ body, html {
   background-size: cover;
 }
 
-/* line 55, ../../sass/partials/_modules.scss */
+/* line 73, ../../sass/partials/_modules.scss */
 .opacity-8 {
   opacity: 0.8;
 }
 
-/* line 60, ../../sass/partials/_modules.scss */
+/* line 78, ../../sass/partials/_modules.scss */
+.schedule-s1 {
+  background-attachment: scroll;
+  background-image: url(../img/journals/journals-s1.jpg);
+  background-position: top left;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/* line 81, ../../sass/partials/_modules.scss */
+.schedule-s2 {
+  background-attachment: scroll;
+  background-image: url(../img/journals/journals-s3.jpg);
+  background-position: top left;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/* line 84, ../../sass/partials/_modules.scss */
+.schedule-s3 {
+  background-attachment: scroll;
+  background-image: url(../img/journals/journals-s1.jpg);
+  background-position: top left;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* line 89, ../../sass/partials/_modules.scss */
 .text-blue {
   color: #17a8c5 !important;
 }
-/* line 63, ../../sass/partials/_modules.scss */
+/* line 92, ../../sass/partials/_modules.scss */
 .text-dark-blue {
   color: #0c5a6a !important;
 }
 
-/* line 68, ../../sass/partials/_modules.scss */
+/* line 97, ../../sass/partials/_modules.scss */
 textarea {
   resize: none;
 }
 
+@media all and (max-width: 767px) {
+  /* line 103, ../../sass/partials/_modules.scss */
+  .journals-s1, .journals-s3 {
+    background-color: #999 !important;
+    background-blend-mode: multiply !important;
+  }
+
+  /* line 109, ../../sass/partials/_modules.scss */
+  .schedule-s1, .schedule-s2, .schedule-s3 {
+    background-attachment: scroll;
+    background-image: url(../img/journals/journals-s1.jpg);
+    background-position: top left;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #999 !important;
+    background-blend-mode: multiply !important;
+  }
+}
 @media all and (min-height: 1024px) {
-  /* line 74, ../../sass/partials/_modules.scss */
+  /* line 119, ../../sass/partials/_modules.scss */
   .bg-home {
     background-position: center;
   }
